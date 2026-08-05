@@ -25,3 +25,11 @@ def atv_4():
 
 def atv_6():
     numero = int(input("digite um numero de 0 a 10"))
+
+    soma = 0
+
+    for i in range(2, numero + 1):
+       if i %2==0:
+           soma += i
+
+           print("A soma dos numeros pares é: ", soma)
